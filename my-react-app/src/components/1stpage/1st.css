@@ -1,0 +1,225 @@
+body{
+    width: 100%;
+    height: 832px;
+    color: white;
+    background-image: url('../../assets/background.png');
+    background-size:cover;
+    background-color: #2E2E2E;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.first-page{
+    height: 64px;
+    width: 100%;
+    gap: 187px;
+    display: flex;
+    background-color:black;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+.Company-Name{
+    width: 109px;
+    height: 23px;
+    font-size: 22px;
+    display: flex;
+}
+.All-Pages{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+}
+.Login-button{
+    margin-top: 15px;
+    align-items: center;
+    align-content: center;
+    width: 188px;
+    height: 37px;
+    gap: 20px;
+    font-size: 14px;
+    display: flex;
+}
+.login{
+
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 37px;
+    top: 13.5px;
+    left: 1043px;
+    text-align: center;
+    align-content: center;
+
+}
+.sign{
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    width: 90px;
+    height: 37px;
+    top: 13.5px;
+    left: 1141px;
+    gap: 10px;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(99.59deg, #FF1E00 0.67%, #FF41C6 100.67%);
+}
+
+.first-page-content{
+    margin-top: 20px;
+    margin-left: 550px;
+
+}
+.exceptbutton{
+    width: 497.322265625px;
+    height: 110px;
+}
+.exceptsectext{
+    width: 497.322265625px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.AiAssited{
+    width: 497.322265625px;
+    height: 70.333251953125px;
+    display: flex;
+}
+.ai{
+    width: 274px;
+    height: 26px;
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+}
+.changingtext{
+    font-family: Solitreo;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 25.6px;
+    letter-spacing: 0%;    
+}
+.twotext {
+    width: 274px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+  }
+  
+  .twotext a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .twotext p {
+    position: absolute;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.2;
+    background: linear-gradient(90deg, #FF1E00 0%, #FF41C6 80.77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    margin-left: 180px;
+  }
+  .sectext{
+    margin-top: 70px;
+    width: 451px;
+    height: 27px;
+    top: 257px;
+    margin-left: 30px;
+    font-family: Inter;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+.buttonText{
+    margin-top: 120px;
+    text-align: center;
+    align-content: center;
+    border-radius: 29.65px;
+    
+}
+.gradient-button{
+    border-style: none;
+    width: 200px;
+    height: 43.67395782470703px;
+    border-radius: 29.65px;
+    background: linear-gradient(270deg, #FFD84E 0%, #FA00FF 6.91%, #8626FF 22.17%, #3300FF 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.31) 0%, rgba(255, 255, 255, 0) 93.55%);
+
+
+}
+.button-text{
+    color: white;
+    font-weight: 700;
+    font-size: 13.23px;
+    line-height: 16.94px;
+    letter-spacing: 0%;    
+}
+.arrow-icon{
+    font-size: 10px;
+    padding-top: 9.5px;
+    padding-left: 11.5px;
+    padding-bottom: 9.5px;
+    padding-right:11.5px;
+    border: 1px solid #FFFFFF;
+    color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+
+}
+.interface {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+.interface img{
+    width: 1022.9508056640625px;
+    height: 390px;
+    margin-top: 60px;
+    border-radius: 12px;
+}
+@media screen and (max-width: 1024px) {
+    body{
+        height: max-content;
+        background-size:100% 100%;
+    }
+    .Company-Name{
+        font-size: 17px;
+        margin-left: 20px;
+        margin-top: 7px;
+    }
+    .exceptbutton{
+        margin-left: -220px;
+    }
+    .interface{
+        margin-left: -18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
